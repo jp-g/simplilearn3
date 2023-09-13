@@ -1,0 +1,14 @@
+To automate WAR file artifact deployment for a Java application and integrate Ansible with Jenkins CI server, the following steps can be taken:
+
+    Configure the Jenkins server as an Ansible provisioning machine.
+    Install Ansible plugins in the Jenkins CI server.
+    Prepare an Ansible playbook to run Maven build on the Jenkins CI server.
+    Prepare an Ansible playbook to execute deployment steps on the remote web container with a restart of the web container post-deployment.
+
+Some useful resources for automating WAR file artifact deployment for a Java application and integrating Ansible with Jenkins CI server are:
+
+    CI/CD using Jenkins and Ansible - DevOps4Solutions1
+    Integrating Ansible with Jenkins in a CI/CD process - Red Hat6
+    Ansible Roles, Integration with Jenkins in DevOps, and EC2 Modules3
+
+By following the above steps and using the recommended resources, WAR file artifact deployment for a Java application can be automated, and Ansible can be integrated with Jenkins CI server.
